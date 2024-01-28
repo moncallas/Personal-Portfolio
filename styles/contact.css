@@ -1,0 +1,29 @@
+#contact h1{
+    color: darkslategray;
+    opacity: 0.8;
+    margin-top: 2%;
+    margin-bottom: 20px;
+}
+#contact {
+    padding: 1%;
+    margin: 2%;
+}
+#contact p{
+    text-align: center;
+    line-height: 200%;
+}
+#contact .hello{
+    padding: 10px;
+    margin: 4%;
+    font-size: x-large;
+    color: darkolivegreen;
+    background-color: aliceblue;
+    outline: none;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+}
+#contact .hello:hover{
+    color: aliceblue;
+    background-color: darkolivegreen;
+    opacity: 0.6;
+}

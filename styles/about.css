@@ -1,0 +1,28 @@
+
+#about .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about img{
+    max-width: 30%;
+}
+#about p{
+    margin-top: 3%;
+    line-height: 200%;
+    text-align: center;
+    max-width: 40%;
+}
+@media only screen and (max-width: 768px) {
+    #about img{
+        min-width: 70%;
+        margin-left: 10%;
+    }
+    #about p{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    #about .body{
+        display: block;
+    }
+}

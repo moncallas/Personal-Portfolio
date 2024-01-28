@@ -1,0 +1,39 @@
+#experience .body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#experience .box{
+    max-width: 45%;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid darkolivegreen;
+}
+#experience h3{
+    color: darkslategray;
+    padding: 10px;
+}
+#experience p{
+    margin: 5px;
+    padding: 10px;
+}
+#experience li{
+    padding: 10px;
+    color: darkolivegreen;
+    line-height: 200%;
+}
+@media only screen and (max-width: 768px) {
+    #experience .body{
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+    #experience li{
+        padding: 0px;
+        margin-left: 5%;
+    }
+    #experience .box{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+}

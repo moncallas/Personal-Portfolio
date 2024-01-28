@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkseagreen;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+em{
+    color: khaki;
+}
+p{
+    color: aliceblue;
+}
+.title{
+    font-size: x-large;
+    padding: 2%;
+}
